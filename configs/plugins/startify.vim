@@ -1,6 +1,6 @@
 let g:startify_bookmarks = [
             \ { 'r': '~/scoop/apps/vim/current' },
-            \ { 'r': '~/AppData/Local/nvim' },
+            \ { 'c': '~/AppData/Local/nvim' },
             \ ]
 
 let g:ascii = [

@@ -66,7 +66,9 @@ set hidden
 
 " Undo
 set undofile
+set undodir=~/vim/undodir
 " SwapFile
+set directory=~/vim/swap
 
 " Backup
 set nobackup
