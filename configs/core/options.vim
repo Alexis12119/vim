@@ -66,13 +66,10 @@ set termguicolors
 set hidden
 
 " Undo
-set undodir=~/.config/vim/undodir
 set undofile
 " SwapFile
-set directory=~/.config/vim/swap/
 
 " Backup
-" set backupdir=~/.vim/backup
 set nobackup
 
 " Guioptions
