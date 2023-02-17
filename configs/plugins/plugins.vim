@@ -2,7 +2,7 @@ filetype on
 filetype plugin on
 filetype plugin indent on
 
-call plug#begin(expand('~/.config/vim/plugged/'))
+call plug#begin()
 
 " nmap <F2> :VimspectorReset<cr>
 " let g:vimspector_enable_mappings = 'HUMAN'
@@ -19,8 +19,6 @@ Plug 'zefei/vim-wintabs-powerline'
 " VimWiki
 " Plug vimwiki/vimwiki
 
-Plug 'Everblush/nvim'
-Plug 'Alexis12119/nightly.nvim', { 'branch': 'dev' }
 Plug 'joshdick/onedark.vim'
 " Project Manager
 Plug 'mhinz/vim-startify'
