@@ -45,19 +45,6 @@ vnoremap <silent> < >gv
 nnoremap <silent> < <<
 nnoremap <silent> > >>
 
-" StartupTime
-nnoremap <silent> up :StartupTime<cr>
-
-" `SPC l s` - save current session
-" nnoremap <silent> leader>ls :SSave<CR>
-
-" `SPC l l` - list sessions / switch to different project
-nnoremap <silent> <leader>ll :SClose<CR>
-
-" Snippets
-" nnoremap <silent> <leader>sp :CocList snippets<cr>
-" nnoremap <silent> <leader>sp :UltiSnipsEdit<cr>
-
 " Quit vim
 nnoremap <silent> <leader>q :qa<cr>
 " Remove All Text
@@ -78,21 +65,16 @@ inoremap <silent> {{ {
 nnoremap <silent><leader>gy :Goyo<cr>
 
 "Source Vimrc
-" nmap <leader>sv :so $MYVIMRC<cr> :e $MYVIMRC<cr> :runtime plugin/StatsLine.vim<cr>
 nnoremap <silent> <leader>sv :so $MYVIMRC<cr> :e $MYVIMRC<cr> :runtime plugin/StatsLine.vim<cr>
 
 " FZF
-nnoremap <silent> <leader>f :Files<cr>
+nnoremap <silent> <leader>ff :Files<cr>
 
 " NerdTree
 nnoremap <silent> <leader>e :NERDTreeToggle<CR>
 
 " Buffer Delete
 nnoremap <silent> <leader>c :Bdelete<CR>
-
-" Tagbar
-" map <silent> <leader>t :TagbarToggle<cr>
-" map <silent> <leader>t :CocOutline<cr>
 
 " Move in next window
 nnoremap <silent> <leader>w <C-w>w
@@ -101,7 +83,7 @@ nnoremap <silent> <leader>w <C-w>w
 tnoremap <silent> <leader>w <C-w>w
 
 " Reload Vimrc
-nnoremap <leader>vim :e $MYVIMRC<cr>
+nnoremap <leader>R :e $MYVIMRC<cr>
 
 " copies filepath to clipboard by pressing yf
 nnoremap <silent> yf :let @+=expand('%:p')<CR>
