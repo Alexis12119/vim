@@ -2,7 +2,7 @@
 winpos 400 112
 
 " Gui Font
-set guifont=JetBrainsMono_NF:h11:b
+set guifont=JetBrainsMono_Nerd_Font:h11:b
 
 " Disable Timeout
 set updatetime=300
@@ -66,9 +66,8 @@ set hidden
 
 " Undo
 set undofile
-set undodir=~/vim/undodir
-" SwapFile
-set directory=~/vim/swap
+set swf
+set undodir=~/.vim/undodir/
 
 " Backup
 set nobackup
